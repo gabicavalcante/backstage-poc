@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component1
+  description: component1
+  tags:
+    - go
+    - website
+spec:
+  type: website
+  lifecycle: production
+  owner: tools@example.com
