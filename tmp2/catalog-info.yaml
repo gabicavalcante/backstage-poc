@@ -21,9 +21,6 @@ metadata:
     - db2
   authentication: auth-provider
   authorization: auth-provider
-  technical_manager: 
-    - name: gabriela cavalcante
-      email: gabriela.casilva@stone.com.br
   links: 
     - https://github.com/backstage-poc/
   pci_l1: pci-extended
