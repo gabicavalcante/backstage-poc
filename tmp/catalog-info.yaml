@@ -3,8 +3,16 @@ kind: Component
 metadata:
   name: component2
   description: component2
+  gui: true
+  sox: true
+  databases:
+    - db1
+    - db2
+  technical_manager: 
+	  name: gabriela
+		email: gabriela.casilva@stone.com.br
   tags:
-    - go
+    - poc
     - website
 spec:
   type: website
