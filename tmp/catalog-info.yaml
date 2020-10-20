@@ -8,9 +8,9 @@ metadata:
   databases:
     - db1
     - db2
-  technical_manager: 
-	  name: gabriela
-		email: gabriela.casilva@stone.com.br
+  technical_manager:
+    name: gabriela
+    email: gabriela.casilva@stone.com.br
   tags:
     - poc
     - website
