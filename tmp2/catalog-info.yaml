@@ -7,12 +7,8 @@ metadata:
   description: |
     Backend service that implements the Frobs API, as defined
     in [the Frobs RFC](https://example.com/spec/frob.html).
-  type: service
-  gui: true
-  sox: true
   owner: gabriela
   lifecycle: production
-  pipeline: 
   cloud:
     name: cloud
     id: id-cloud
