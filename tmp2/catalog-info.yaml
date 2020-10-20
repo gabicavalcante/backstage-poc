@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v0
 kind: Component
 metadata:
-	id: 1
+  id: 1
   name: project-python
   product_name: project-python-app
   description: |
     Backend service that implements the Frobs API, as defined
     in [the Frobs RFC](https://example.com/spec/frob.html).
-	type: service
-	gui: true
-	sox: true
+  type: service
+  gui: true
+  sox: true
   owner: gabriela
   lifecycle: production
   pipeline: 
@@ -22,8 +22,8 @@ metadata:
   authentication: auth-provider
   authorization: auth-provider
   technical_manager: 
-		- name: gabriela
-			email: gabriela.casilva@stone.com.br
+    - name: gabriela cavalcante
+      email: gabriela.casilva@stone.com.br
   links: 
     - https://github.com/backstage-poc/
   pci_l1: pci-extended
@@ -32,12 +32,10 @@ metadata:
   labels:
     system: public-websites
     lifecycle: production
-    example.com/service-discovery-name: frobsawesome
   annotations:
     example.com/service-discovery: project-python
     backstage.io/managed-by-location: https://github.com/backstage-poc/blob/master/catalog-info.yaml
-    github.com/project-slug: project-python/project-python
-		circleci.com/project-slug: github/example-org/frobs-awesome
+    github.com/project-slug: gabicavalcante/backstage-poc
   tags:
     - python
     - poc
