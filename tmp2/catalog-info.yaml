@@ -19,16 +19,6 @@ metadata:
   authorization: auth-provider
   links: 
     - https://github.com/backstage-poc/
-  pci_l1: pci-extended
-  pci_extended: true
-  version: 1
-  labels:
-    system: public-websites
-    lifecycle: production
-  annotations:
-    example.com/service-discovery: project-python
-    backstage.io/managed-by-location: https://github.com/backstage-poc/blob/master/catalog-info.yaml
-    github.com/project-slug: gabicavalcante/backstage-poc
   tags:
     - python
     - poc
