@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: react-ssr-template-scaffolder
-  title: React SSR Template
-  description: Create a website powered with Next.js
+  name: poc-template-scaffolder
+  title: POC template
+  description: POC template
   tags:
     - recommended
-    - react
+    - python
 spec:
   owner: web@example.com
   templater: cookiecutter
